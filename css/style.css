@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  height: 100vh;
+  background: grey;
+}
+.section {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background: rgb(24, 21, 21);
+  margin-top: 50px;
+  height: 445px;
+  width: 300px;
+  border: 4px solid rgb(187, 32, 32);
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: auto;
+  margin: 20px 0;
+}
+#grid:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+#grid:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 30px;
+}
+
+.btn {
+  background: rgb(39, 36, 36);
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  outline: none;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.green{
+    color: rgb(85, 238, 85);
+}
+#equality{
+    background: rgb(39, 212, 39);
+}
+.inputForm {
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: rgb(248, 250, 248);
+  outline: none;
+  
+}
+
+.top {
+  padding-top: 15px;
+}
+.img{
+    background: rgb(13, 14, 13);
+    border: none;
+    outline: none;
+}
+.top img{
+    background: rgb(32, 116, 32);
+    color: rgb(80, 145, 80);
+    height: 20px;
+    width: 40px;
+    outline: none;
+    border-radius: 10px;
+}
